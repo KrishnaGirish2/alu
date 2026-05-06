@@ -69,6 +69,7 @@ end
 
 2'd1: begin
 multi<=0;
+temp<=0;
 if(mode_r) begin
 
 case(cmd_r) 
