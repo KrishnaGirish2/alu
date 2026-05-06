@@ -1,4 +1,4 @@
-lu #(parameter W=8, parameter W_cmd=4, localparam R=$clog2(W))(OPA,OPB,cin,rst,clk,ce,mode,inp_valid,cmd,res,oflow,cout,G,L,E,err);
+alu #(parameter W=8, parameter W_cmd=4, localparam R=$clog2(W))(OPA,OPB,cin,rst,clk,ce,mode,inp_valid,cmd,res,oflow,cout,G,L,E,err);
 input wire [W-1:0]OPA,OPB;
 input wire clk,rst,ce,mode,cin;
 input wire [1:0]inp_valid;
