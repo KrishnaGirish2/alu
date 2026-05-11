@@ -1,5 +1,10 @@
+# ALU Design and Verification
+
+## Project Overview:
 This project implements a Verilog-based Arithmetic Logic Unit (ALU) and verifies its functionality using a self-checking testbench environment.
 The ALU performs basic arithmetic and logical operations and is verified using a modular testbench architecture.
+---
+## ALU Operations:
 The ALU supports the following operations:
 -Addition (Unsigned) 
 -Subtraction (Unsigned)
@@ -28,14 +33,20 @@ The ALU supports the following operations:
 -Shift left 1 Operand B
 -Rotate left Operand A by B
 -Rotate right Operand A by B
+---
+
 Most of the arithmetic and logical operations uses 1 clock cycle delay and multiplication operation use 2 cycle processing latency( 3 clock cycle total timing)
+---
+## Verification:
 The verification is done using a modular testbench consisting of:
 
 - **Driver**: Generates and sends stimulus to the DUT
 - **Scoreboard**: Compares expected and actual outputs
 - **Top Testbench**: Connects all components and DUT
+---
 
-Tools Used:
-Vivado
-Questa SIM
+## Tools Used:
+-Vivado
+-Questa SIM
+---
   
