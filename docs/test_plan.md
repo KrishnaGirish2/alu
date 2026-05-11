@@ -1,1 +1,1 @@
-[TEST PLAN](./ALU_TEST(1).xlsx)
+[TEST PLAN](./test_plan.xlsx)
